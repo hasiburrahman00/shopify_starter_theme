@@ -30,7 +30,7 @@
 
         {% for item in section.settings.menu.links %}
           <li class="nav-item">
-            <a class="nav-link" href="#">{{ item.title }}</a>
+            <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
           </li>
         {% endfor %}
 
