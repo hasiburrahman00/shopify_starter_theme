@@ -59,7 +59,7 @@
       "footer": {
         "type": "footer",
         "custom_css": [
-          "h2 {text-align: center;}"
+
         ],
         "settings": {
         }
