@@ -51,7 +51,9 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/shopify__logo.png",
           "menu": "main-menu",
-          "check_number": 19
+          "article": "",
+          "heading_font": "helvetica_n4",
+          "inline": "my <em>inline<\/em> <strong>text<\/strong>"
         }
       },
       "footer": {
@@ -61,9 +63,7 @@
       }
     },
     "content_for_index": [
-      "collection-list",
-      "featured-collection",
-      "featured-product"
+
     ]
   },
   "presets": {
