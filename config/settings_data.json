@@ -49,11 +49,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/shopify__logo.png",
+          "logo": "shopify:\/\/shop_images\/dummy-logo-5b.png",
           "menu": "main-menu",
-          "article": "",
-          "heading_font": "helvetica_n4",
-          "inline": "my <em>inline<\/em> <strong>text<\/strong>"
+          "search_checkbox": true
         }
       },
       "footer": {
