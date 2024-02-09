@@ -1,11 +1,13 @@
 {% liquid
-  assign search_checkbox = section.settings.search_checkbox
+  assign header_logo = section.settings.logo ;
+  assign search_checkbox = section.settings.search_checkbox;
+  assign  navMenu = section.settings.menu;
 %}
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    {% if section.settings.logo != null %}
-      {{ section.settings.logo | img_url: width: 200 | img_tag }}
+    {% if header_logo != null %}
+      {{ header_logo | img_url: width: 200 | img_tag }}
     {% else %}
       <a class="navbar-brand" href="#">{{ shop.name }}</a>
     {% endif %}
