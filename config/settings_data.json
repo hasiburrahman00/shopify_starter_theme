@@ -51,7 +51,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/dummy-logo-5b.png",
           "menu": "main-menu",
-          "search_checkbox": true
+          "search_checkbox": false
         }
       },
       "footer": {
