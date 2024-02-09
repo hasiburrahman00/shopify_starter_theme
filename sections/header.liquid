@@ -40,7 +40,7 @@
               <ul class="dropdown-menu">
                 {% for subitem in item.links %}
                   <li>
-                    <a class="dropdown-item" href="{{subitem.url}}">Action</a>
+                    <a class="dropdown-item" href="{{subitem.url}}">{{subitem.title}}</a>
                   </li>
                 {% endfor %}
               </ul>
